@@ -1,0 +1,138 @@
+body{
+  font-family: "Inter", serif;
+  font-size: 16px;
+  width: 100%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav-bar{
+  margin: 0;
+  padding: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  width: 100vw;
+  position: fixed;
+  background-color: #ffff;
+  box-shadow: 2px 1px 2px #eee;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: inline;
+  width: auto;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links > li {
+  list-style: none;
+  margin: 10px;
+}
+
+.links > li > a {
+  color: #666;
+  text-decoration: none;
+}
+
+.links > li > a:hover {
+  color: #387ed1;
+  cursor: pointer;
+}
+
+.container  { 
+  width: 1100px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.hero-section {
+  margin-top:60px;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section > img {
+  width: 60%;
+}
+
+.tag-line1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.75rem;
+  line-height: 1.25;
+  margin: 0.97em 0;
+  color: #424242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag-line2 {
+  margin-bottom: 14px;
+  padding: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #424242;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-button > button {
+  font-family: "Inter", serif;
+  margin-top: 20px;
+  color: whitesmoke;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: #387ed1;
+}
+.signup-button > button:hover {
+  background-color: #222;
+}
+
+.broker-section {
+  margin-top: 100px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.broker-section-text {
+  display: grid;
+  grid-template-rows: repeat(1fr, 6);
+}
+
+.broker-section-text > h1 {
+  display: inline;
+  color: #424242;
+  margin-left: 20px;
+}
+
+.broker-section-text > p {
+  display: inline;
+  margin-left: 20px;
+}
+
+.bullet-points{
+  display: flex;
+  margin-left: 20px;
+}
